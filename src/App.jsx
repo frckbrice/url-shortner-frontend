@@ -27,7 +27,7 @@ function App() {
         "Access-Control-Allow-Origin":
           "https://uner.vercel.app/",
         "Access-Control-Allow-Methods": "POST , GET",
-        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization, application/json, text/plain",
       },
       body: JSON.stringify(data),
       mode: "cors",
