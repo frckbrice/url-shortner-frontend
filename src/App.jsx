@@ -22,6 +22,9 @@ function App() {
     };
     let response = await fetch(api_url, {
       method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
       body: JSON.stringify(data),
       mode: "cors",
     });
@@ -39,6 +42,7 @@ function App() {
 
   return (
     <>
+      <div></div>
       <h1>URL Shortener Microservice</h1>
       <h2>Short URL Creation</h2>
       <p>
