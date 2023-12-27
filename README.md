@@ -1,5 +1,3 @@
-# url-shortner-frontend
-
 # url-shortner
 
 # DESCRIPTION:
