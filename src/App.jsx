@@ -25,7 +25,7 @@ function App() {
       headers: {
         "content-type": "application/json",
         "Access-Control-Allow-Origin":
-          "https://uner.vercel.app/, http://localhost:5173",
+          "https://uner.vercel.app/, http://localhost:5173, *",
         "Access-Control-Allow-Methods": "POST , GET",
         "Access-Control-Allow-Headers": "Content-Type",
       },
