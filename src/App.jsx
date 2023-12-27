@@ -30,7 +30,7 @@ function App() {
         "Access-Control-Allow-Headers": "Content-Type",
       },
       body: JSON.stringify(data),
-      mode: "cors",
+      // mode: "cors",
     });
     if (response.ok) {
       response.json().then((data) => {
