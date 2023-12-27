@@ -24,8 +24,7 @@ function App() {
       method: "POST",
       headers: {
         "content-type": "application/json",
-        "Access-Control-Allow-Origin":
-          "https://url-shortner-frontend-iidjkh9rl-frckbrice.vercel.app/ , *",
+        "Access-Control-Allow-Origin": "https://uner.vercel.app/",
         "Access-Control-Allow-Methods": "POST , GET",
         "Access-Control-Allow-Headers": "Content-Type",
       },
