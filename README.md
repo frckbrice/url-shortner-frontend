@@ -19,3 +19,13 @@ the location bar above.
 
 e.g: you have http://example.com as original url. after cicking the button you have this http://example.com/[api/shorterurl] where you find the info. and after pasting the short url, you will have http://example.com/[api/shorterurl]/[short_url]. at the end you come back to this: http://example.com page.
 That will redirect you to the original page of the link (url).
+
+# TECHNOLOGIES
+
+Front-end: ReactJs, ViteJs v5.0.6
+
+Back-end: ExpressJs
+
+# LAUNCH PROJECT:
+
+$ npm run dev
