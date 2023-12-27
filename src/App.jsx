@@ -46,12 +46,7 @@ function App() {
         <code>https://rebaseacademy.com</code>
       </p>
       <main>
-        <form
-          action="api/shorturl"
-          method="POST"
-          className="form"
-          onSubmit={handleSubmit}
-        >
+        <form action="api/shorturl" className="form" onSubmit={handleSubmit}>
           <fieldset>
             <legend>URL Shortner</legend>
             <div>
