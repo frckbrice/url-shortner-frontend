@@ -30,7 +30,7 @@ function App() {
           "Content-Type, Authorization, application/json, text/plain",
       },
       body: JSON.stringify(data),
-      // mode: "cors",
+      mode: "cors",
     });
     if (response.ok) {
       response.json().then((data) => {
